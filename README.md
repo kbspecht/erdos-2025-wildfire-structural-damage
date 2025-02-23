@@ -1,6 +1,6 @@
 # erdos-2025-wildfire-structural-damage
 
-Wildfire Structural Damage Prediction (Erdös Institute Data Science Project Spring 2025)
+## Wildfire Structural Damage Prediction (Erdös Institute Data Science Project Spring 2025)
 
 Kevin Specht, Evan Ferguson, Ruichen Kong, Andres Barei, Kiana Burton
 
