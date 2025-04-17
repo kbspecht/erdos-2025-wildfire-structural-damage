@@ -23,3 +23,27 @@ This dataset includes structures impacted by wildfire, meaning they are inside o
 ### Key Performance Indicators (KPI)
 
 - The main performance indicator will be the accuracy of predictions for whether a building will be destroyed by a wildfire when compared whether it was actually destroyed.
+
+### File Organization
+This repository is divided into four folders. Here is the order you should access them in in order to understand the data:
+
+#### data
+- cal_fire_data.csv contains the raw, untouched data on structural damage from wildfires downloaded from the CAL FIRE database
+- cal_fire_data_cleaned.csv contains the cleaned data on structural damage from wildfires obtained after running the Data_cleaning notebook
+
+#### cleaning (start here before running eda/models)
+- Data_cleaning.ipynb will clean the cal_fire_data.csv file in the data folder and save the output to the cal_fire_data_cleaned.csv file in the data folder
+
+#### eda (only run after cleaning data)
+- Data_eda.ipynb will perform exploratory data analysis (EDA) on the cleaned data from cal_fire_data_cleaned.csv, displaying relationships in the data via various graphs
+
+#### models (only run after cleaning data)
+- Baseline_model.ipynb will predict whether buildings will be destroyed by wildfires based on simple model (selects most frequent class out of destroyed/not destroyed) and displays metrics
+- Logistic_regression.ipynb will predict whether buildings will be destroyed by wildfires based on logistic regression model (after selecting most important features) and displays metrics
+- KNN_model_hyperparameter_and_variable_tuning.ipynb will build a model to predict whether buildigns will be destroyed by wildfires using K-Nearest Neighbors (KNN) by tuning various hyperparameters
+- KNN_model.ipynb will predict whether buildings will be destroyed by wildfires based on KNN model (after selecting most important features) and displays metrics 
+- naive_bayes.ipynb will predict whether buildings will be destroyed by wildfires based on Naive Bayes model (after selecting most important features) and displays metrics
+- Decision_tree.ipynb will predict whether buildings will be destroyed by wildfires based on decision tree model and displays metrics
+- Random_forst.ipynb will predict whether buildings will be destroyed by wildfires based on random forest model and displays metrics
+- Gradient_boosting.ipynb will predict whether buildings will be destroyed by wildfires based on gradient boosting model and displays metrics
+- Model_Comparison.ipynb will compare the metrics obtained by predicting building destruction across all models
