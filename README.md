@@ -25,7 +25,7 @@ This dataset includes structures impacted by wildfire, meaning they are inside o
 - The main performance indicator will be the accuracy of predictions for whether a building will be destroyed by a wildfire when compared whether it was actually destroyed.
 
 ### File Organization
-This repository is divided into four folders. Here is the order you should access them in in order to understand the data:
+This repository is divided into four folders:
 
 #### data
 - cal_fire_data.csv contains the raw, untouched data on structural damage from wildfires downloaded from the CAL FIRE database
