@@ -10,7 +10,7 @@ Our main objective is to discover correlations between features of structures af
 
 ### Datasets
 
-CAL FIRE Damage Inspection (DINS) Data: https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data\
+CAL FIRE Damage Inspection (DINS) Data: https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data \
 Glossary of Dataset Definitions: https://gis.data.cnra.ca.gov/datasets/CALFIRE-Forestry::cal-fire-damage-inspection-dins-data/about (select DINS database dictionary link)\
 This dataset includes structures impacted by wildfire, meaning they are inside or within 100 meters of the fire perimeter. The data was collected by CAL FIRE and partnering agencies on structures damaged and destroyed by wildfires and California from 2013 onwards (note that data on non-damaged structures was only collected from 2018 onwards). Each structure has information on structure type, construction features, location, level of damage, and other features included when available (or null if not). Levels of damage include no damage (0% damaged), affected damage (1-10% damaged), minor damage (10-25% damaged), major damage (25-50% damaged), and destroyed (50-100% damaged). For our purposes, we will consider all damage levels other than destroyed to be not destroyed.
 
