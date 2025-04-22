@@ -40,11 +40,12 @@ This repository is divided into four folders:
 
 #### models (only run after cleaning data)
 - Baseline_model.ipynb will predict whether buildings will be destroyed by wildfires based on simple model (selects most frequent class out of destroyed/not destroyed) and displays metrics
-- Logistic_regression.ipynb will predict whether buildings will be destroyed by wildfires based on logistic regression model (after selecting most important features) and displays metrics
+- Logistic_regression.ipynb will predict whether buildings will be destroyed by wildfires based on logistic regression model (after selecting most important features), displays metrics, and determines feature importance
 - KNN_model_hyperparameter_and_variable_tuning.ipynb will build a model to predict whether buildigns will be destroyed by wildfires using K-Nearest Neighbors (KNN) by tuning various hyperparameters
 - KNN_model.ipynb will predict whether buildings will be destroyed by wildfires based on KNN model (after selecting most important features) and displays metrics 
-- naive_bayes.ipynb will predict whether buildings will be destroyed by wildfires based on Naive Bayes model (after selecting most important features) and displays metrics
-- Decision_tree.ipynb will predict whether buildings will be destroyed by wildfires based on decision tree model and displays metrics
-- Random_forst.ipynb will predict whether buildings will be destroyed by wildfires based on random forest model and displays metrics
-- Gradient_boosting.ipynb will predict whether buildings will be destroyed by wildfires based on gradient boosting model and displays metrics
+- Naive_bayes.ipynb will predict whether buildings will be destroyed by wildfires based on Naive Bayes model (after selecting most important features) and displays metrics
+- Decision_tree.ipynb will predict whether buildings will be destroyed by wildfires based on decision tree model, displays metrics, and determines feature importance
+- Random_forest.ipynb will predict whether buildings will be destroyed by wildfires based on random forest model, displays metrics, and determines feature importance
+- Extra_trees.ipynb will predict whether buildings will be destroyed by wildfires based on extra trees model, displays metrics, and determines feature importance
+- Gradient_boosting.ipynb will predict whether buildings will be destroyed by wildfires based on gradient boosting model, displays metrics, and determines feature importance
 - Model_Comparison.ipynb will compare the metrics obtained by predicting building destruction across all models
